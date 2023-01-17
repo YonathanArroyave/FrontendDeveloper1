@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: salmon;
+        }
+        p::before{
+            content: "♥";
+        }
+        p::first-letter{
+            color: black;
+        }
+        p::after{
+            content: "☻";
+        }
+        p:hover {
+            color: aqua;
+        }
+        div p:nth-child(2) {
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+    <p>como </p>
+    <p>estan?</p>
+    <p>perras?</p>
+</div>
+</body>
+</html>
